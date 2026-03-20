@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Craft | Felis Onca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <style>
+       html { scroll-behavior: smooth; }   
+       body { background-color: #F9F8F6; color: #1C1C1C; font-family: 'Inter', sans-serif; }
+       h1, h2, h3, .serif { font-family: 'Cormorant Garamond', serif; }
+        
+        /* Custom "Vat Soaked" Background Effect */
+        .ink-bleed {
+            background: radial-gradient(circle at 10% 20%, rgba(220, 214, 205, 0.4) 0%, transparent 50%),
+                        radial-gradient(circle at 90% 80%, rgba(214, 204, 194, 0.4) 0%, transparent 50%);
+            background-color: #fdfcfb;
+        }
+
+        /* THE REFRESHING REVEAL FEATURE */
+        .fade-in { animation: fadeIn 2.5s ease-out forwards; }
+        @keyframes fadeIn { 
+            from { opacity: 0; transform: translateY(20px); } 
+            to { opacity: 1; transform: translateY(0); }
+        } 
+    </style>
+</head>
+<body class="antialiased">
+    
+<nav class="w-full px-8 py-8 pb-10 md:px-20">
+    <div class="flex justify-center mb-8">
+        <a href="index.html" class="text-xl md:text-2xl tracking-[0.8em] font-light uppercase transition hover:opacity-80">Felis Onca</a>
+    </div>
+
+    <div class="flex justify-center items-center gap-32 md:gap-48 border-t border-stone-100 pt-8">
+        <a href="heritage.html" class="text-[12px] uppercase tracking-[0.5em] font-light hover:text-stone-400 transition">The Provenance</a>
+        <a href="craft.html" class="text-[12px] uppercase tracking-[0.5em] font-light border-b border-stone-800 pb-1 transition">The Craft</a>         
+    </div>
+</nav>
+
+    <main>
+        <section class="max-w-6xl mx-auto px-12 py-12 text-center fade-in">
+            <span class="text-[10px] uppercase tracking-[0.4em] text-stone-400 block mb-6">The Atelier</span>
+            <h2 class="text-5xl md:text-7xl font-light italic serif mb-8">The Humanist Rhythm</h2>
+            <p class="text-stone-500 max-w-2xl mx-auto font-light leading-relaxed">
+                Exploring the technical mastery of the hand-woven thread—where time is the primary ingredient and the hand is the ultimate architect.
+            </p>
+        </section>
+
+        <section class="max-w-6xl mx-auto px-12 py-24 border-t border-stone-200 fade-in">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-6">
+                    <h2 class="text-3xl md:text-4xl mb-8 font-light italic serif leading-tight">Mastery of the Hand</h2>
+                    <p class="text-stone-600 font-light leading-relaxed mb-6">
+                        Before the loom breathes, the hand must spin. Our yarn is twisted manually, creating subtle variations. These are not defects; they are the acoustic signatures of a living textile.
+                    </p>
+                    <p class="text-stone-600 font-light leading-relaxed">
+                        By managing the entire lifecycle—from our proprietary heritage farms to the master looms—Felis Onca ensures an unbroken chain of custody.
+                    </p>
+                </div>
+                <div class="md:col-span-5 md:col-start-8 aspect-[3/4] overflow-hidden group">
+                    <img src="assets/Handspinning.jpg" alt="Handspinning Mastery" 
+                         class="w-full h-full object-cover transition-all duration-1000 group-hover:grayscale">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-stone-50 py-32 fade-in">
+            <div class="max-w-4xl mx-auto px-12 text-center">
+                <h2 class="text-3xl md:text-5xl font-light italic serif leading-tight text-stone-800">
+                    "We do not seek perfection; we seek character."
+                </h2>
+                <span class="text-[12px] uppercase tracking-[0.4em] text-stone-400 mt-8 block">— The Fingerprints of the Weaver</span>
+            </div>
+        </section>
+
+        <section class="max-w-6xl mx-auto px-12 py-24 border-t border-stone-200 fade-in">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-6 order-2 md:order-1">
+                    <div class="aspect-[4/5] overflow-hidden">
+                        <img src="assets/Handloom.jpg" alt="Honeycomb Weave Structure" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
+                    </div>
+                </div>
+                <div class="md:col-span-5 md:col-start-8 order-1 md:order-2">
+                    <h3 class="text-3xl md:text-4xl font-light italic serif mb-8 leading-tight">Thermal Intelligence</h3>
+                    <p class="text-stone-600 font-light leading-relaxed mb-6">
+                        When cotton is woven by hand, the tension is managed by human sensitivity. This preserves the natural air-pockets of the indigenous fiber, creating an organic breathability that keeps the wearer cool in heat and insulated in cold.
+                    </p>
+                    <p class="text-stone-600 font-light leading-relaxed">
+                        Unlike the crushed fibers of industrial production, Felis Onca cloth remains "alive"—a structural superiority that responds to the climate and the body.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-6xl mx-auto px-12 py-24 border-t border-stone-200 fade-in">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-5">
+                    <h3 class="text-3xl md:text-4xl font-light italic serif mb-8 leading-tight">The Selvedge of Authenticity</h3>
+                    <p class="text-stone-600 font-light leading-relaxed">
+                        The edge of our fabric tells the story of the shuttle’s return. A hand-loomed selvedge is soft, durable, and uniquely irregular. It is the certificate of authenticity that separates a heritage piece from a disposable garment. To wear Felis Onca is to wear a unique topography of human effort.
+                    </p>
+                </div>
+                <div class="md:col-span-6 md:col-start-7 aspect-[16/9] overflow-hidden bg-stone-100">
+                    <img src="assets/fabric.jpg" alt="Fabric Detail" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <section class="ink-bleed py-32 border-t border-stone-200 fade-in">
+            <div class="max-w-3xl mx-auto px-12 text-center">
+                <h3 class="text-3xl md:text-4xl font-light italic serif mb-10 leading-tight">Colors Borrowed from the Soil</h3>
+                <p class="text-stone-600 font-light leading-relaxed mb-12">
+                    Our hues are birthed in vats of Indigo, Madder root, and Myrobalan. Using mineral-rich heritage waters, we bind these pigments to the fiber. These are living colors—they evolve with the wearer, developing a patina of life that synthetic dyes can never achieve.
+                </p>
+                <a href="#" class="text-[10px] uppercase tracking-[0.5em] border-b border-stone-800 pb-2 hover:text-stone-400 hover:border-stone-400 transition-colors">Request the Prospectus</a>
+            </div>
+        </section>
+
+    </main>
+
+   <footer class="py-20 px-8 border-t border-stone-200 text-center">
+        <p class="text-[10px] uppercase tracking-[0.3em] text-stone-400">© 2026 Felis Onca. Ancient DNA. Modern Mastery.</p>
+    </footer>
+
+</body>
+</html>
